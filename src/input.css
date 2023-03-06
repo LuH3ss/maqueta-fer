@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+.btn {
+    @apply shadow-md py-3 px-6 rounded-md transition duration-300;
+}
+
+.nav-bar--button {
+    @apply  p-4 transition-colors duration-300  hover:bg-Sub-main hover:text-yellow-100
+}
+
+.landing-coffee {
+    @apply  h-[40vh] w-1/2  shadow-xl bg-no-repeat bg-cover lg:text-8xl text-center py-10 rounded-lg hover:opacity-60 transition-opacity duration-300 ;
+}
+
+.contact-icon {
+    @apply h-5/6 row-start-1;
+}
+
+.card-container {
+    @apply  flex flex-col gap-12 p-2 items-center
+}
+
+.card {
+    @apply p-2 bg-Sub-main shadow-main-color shadow-lg rounded-2xl border-4 border-bg  grid gap-2 md:grid-cols-2 md:max-w-2xl
+
+}
+
+.img-card {
+    @apply min-h-fit max-h-56 rounded-md sm:basis-1/2 m-auto 
+}   
+
+.detail-container {
+    @apply h-auto bg-Sub-main flex flex-col gap-7 items-center p-4 text-center
+
+}
